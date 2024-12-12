@@ -1,0 +1,8 @@
+<body>
+    <h1>Lista de Times</h1>
+    <ul>
+        <li th:each="team : ${teams}">
+            <span th:text="${team}"></span> 
+        </li>
+    </ul>
+</body>

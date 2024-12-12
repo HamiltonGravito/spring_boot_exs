@@ -1,0 +1,17 @@
+<body>
+	<div>
+	    <h1>This is what we can see in your OpenId data</h1>
+	    <p>Your username <span th:text="${userName}" style="font-weight:bold"/>!</p>
+	    <p>Audience <span th:text="${audience}" style="font-weight:bold"/>.</p>
+	    <p>Expires at <span th:text="${expiresAt}" style="font-weight:bold"/>.</p>
+    </div>
+    <h2>Here all the claims</h2>
+    <table>
+        <tr th:each="claim: ${claims}">
+            <td th:text="${claim.key}" />
+            <td th:text="${claim.value}" />
+        </tr>
+    </table>
+    <h2>Let's try to use your rights</h2>
+    <a href="/teams">Teams</a>
+</body>

@@ -1,5 +1,4 @@
-package com.hamilton.github.football.player;
-
+package com.hamilton.github.football;
 import java.time.LocalDate;
 import java.util.List;
 

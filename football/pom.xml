@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hamilton.github</groupId>
-	<artifactId>football</artifactId>
+	<artifactId>footballCorrecao</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>football</name>
+	<name>footballCorrecao</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
